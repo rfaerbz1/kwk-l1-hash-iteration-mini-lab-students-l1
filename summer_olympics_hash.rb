@@ -8,7 +8,7 @@ summer_olympics = {
 def create_olympics_hash (hash)
   # Implement this method so that it returns a hash with the data provided on README.md
   
-  puts hash
+  hash
 end
 create_olympics_hash(summer_olympics)
 
@@ -39,6 +39,6 @@ def iterate_through_keys(hash)
   hash.each_key do |key|
     upcased_cities.push(key)
   end
-  puts upcased_cities
+  upcased_cities
 end
 iterate_through_keys(summer_olympics)
