@@ -1,8 +1,8 @@
 summer_olympics = {
-    :Sydney => 2000,
-    :Athens => 2004,
-    :Beijing => 2008,
-    :London => 2012,
+    :Sydney => "2000",
+    :Athens => "2004",
+    :Beijing => "2008",
+    :London => "2012",
   }
   
 def create_olympics_hash (hash)
